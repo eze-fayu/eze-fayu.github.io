@@ -1,5 +1,16 @@
-# COMO LINKEAR 2 REDES LAN CON ZEROTIER
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>COMO LINKEAR 2 REDES LAN CON ZEROTIER</h2>  
+        <article>
+            <p>
+                
 1. Instalar zerotier en 2 dispositivos, uno por red. tiene que estar siempre conectados
 
 2. Conectarlos a la misma red de zerotier
@@ -31,4 +42,10 @@ For example:
 
 
 
-[Fuente](https://zerotier.atlassian.net/wiki/spaces/SD/pages/224395274/Route+between+ZeroTier+and+Physical+Networks)
+<a href="https://zerotier.atlassian.net/wiki/spaces/SD/pages/224395274/Route+between+ZeroTier+and+Physical+Networks">
+Fuente</a>
+            </p>
+
+        </article>
+</body>
+</html>
