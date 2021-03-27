@@ -1,15 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h2>COMO LINKEAR 2 REDES LAN CON ZEROTIER</h2>  
-        <article>
-            <p>
+# COMO LINKEAR 2 REDES LAN CON ZEROTIER
+
                 
 1. Instalar zerotier en 2 dispositivos, uno por red. tiene que estar siempre conectados
 
@@ -32,20 +22,14 @@
     - sudo apt install iptables-persistent
     - sudo su && bash -c iptables-save > /etc/iptables/rules.v4
 8. crear los puentes de ida y vuelta en la pagina de zerotier
-            Destination                 (Via)
-            $PHY_SUB                   $ZT_ADDR
+    |        Destination        |         (Via)               |
+    |        $PHY_SUB           |        $ZT_ADDR             |
 
 For example:
 
-            Destination                  (Via)
-        192.168.100.0/23                172.27.0.1
+    |        Destination       |           (Via)            |
+    |    192.168.100.0/23      |          172.27.0.1        |
 
 
 
-<a href="https://zerotier.atlassian.net/wiki/spaces/SD/pages/224395274/Route+between+ZeroTier+and+Physical+Networks">
-Fuente</a>
-            </p>
-
-        </article>
-</body>
-</html>
+[Fuente](https://zerotier.atlassian.net/wiki/spaces/SD/pages/224395274/Route+between+ZeroTier+and+Physical+Networks)
