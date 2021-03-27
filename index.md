@@ -1,4 +1,4 @@
-# Guia Personal ![](https://cdn.mos.cms.futurecdn.net/7TXFCATZmDvpfLoBZxpUe4-970-80.jpg.webp)
+![](https://cdn.mos.cms.futurecdn.net/7TXFCATZmDvpfLoBZxpUe4-970-80.jpg.webp)
 
 ## MANUAL PERSONAL DE DOCUMENTACION
 
