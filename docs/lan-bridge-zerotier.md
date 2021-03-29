@@ -31,14 +31,17 @@
     sudo su && bash -c iptables-save > /etc/iptables/rules.v4
     ```
 
-8. crear los puentes de ida y vuelta en la pagina de zerotier
-    |        Destination        |         (Via)               |
-    |        $PHY_SUB           |        $ZT_ADDR             |
+8. crear los puentes de ida y vuelta en la pagina de zerotier  
 
-For example:
+    | Destination | (Via) |
+    |---|---|
+    | $PHY_SUB | $ZT_ADDR |
 
-    |        Destination       |           (Via)            |
-    |    192.168.100.0/23      |          172.27.0.1        |
+Ejemplo:
+
+    |Destination | (Via) |
+    |-----|-----|
+    | 192.168.100.0/23 | 172.27.0.1 |
 
 
 
