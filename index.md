@@ -11,3 +11,11 @@
 * [Puentes entre LAN](docs/lan-bridge-zerotier.html)
             *Como unir 2 redes locales por medio del uso de zerotier para que sea una sola red y tenga todo disponible*
 
+* [CSS](docs/css.md)
+            *guia de comandos basicos de sql*
+
+* [git](docs/git.md)
+            *comandos para git*
+
+* [Borrar /tmp](docs/temporales.md)
+            *como limpiar lo que se junta en /tmp sin reiniciar*
