@@ -5,7 +5,8 @@
 
 2. Conectarlos a la misma red de zerotier
 
-3. habilitar el redireccionado en ambas maquinas
+3. habilitar el redireccionado en ambas maquinas  
+ **(Edit /etc/sysctl.conf to uncomment net.ipv4.ip_forward. This enables forwarding at boot.)**
 
     ```bash
     sudo sysctl -w net.ipv4.ip_forward=1
