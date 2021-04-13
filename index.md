@@ -19,3 +19,6 @@
 
 * [Borrar /tmp](docs/temporales.md)
             *como limpiar lo que se junta en /tmp sin reiniciar*
+
+* [Redireccionamiento puerto 80 x VPN](docs/redireccion_puertos.md)  
+            *redireccionar puertos 80 y 443 para evitar el cgnat*
