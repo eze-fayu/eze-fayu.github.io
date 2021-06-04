@@ -27,7 +27,7 @@ sudo iptables -A FORWARD -i eth0 -o ztklhql2jy -p tcp --syn --dport 80 -m conntr
 sudo iptables -A FORWARD -i eth0 -o ztklhql2jy -p tcp --syn --dport 443 -m conntrack --ctstate NEW -j ACCEPT
 
 # Allow traffic between ztklhql2jy and eth0
-sudo iptables -A FORWARD -i ztklhql2jy -o eth0 -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
+sudo iptables -A FORWARD -i eth0 -o ztklhql2jy -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
 sudo iptables -A FORWARD -i ztklhql2jy -o eth0 -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
 
 # Forward traffic from eth0 to ztklhql2jy on specified ports LO MANDA A LA PC DESTINO (SERVIDOR)
